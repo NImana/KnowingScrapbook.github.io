@@ -1,0 +1,52 @@
+body {
+}
+#About {
+    z-index: 1;
+    position: absolute;
+    top : 3em;
+    left: 2em;
+    right: 3em;
+    bottom: 1em;
+ background: url("https://cdn.rawgit.com/NImana/KnowingScrapbook.github.io/154a85dc/Resource/img/MainNote.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.menu {
+    box-shadow: 1em 0.5em 1em 1em white inset, 0em -3em 2em 1em white inset; 
+    width: 20em ;
+    height: 20em ;
+    border-radius: 3em 3em 0em 0em;
+    border-style: transparent;
+    border-color: grey;
+    -ms-transform: rotate(-3deg); /* IE 9 */
+    -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+    transform: rotate(-3deg);
+    -webkit-transition: 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: 0.5s;
+}
+.menu p{
+ font-family: "Brush Script MT", cursive;
+ padding: 3em;
+    -webkit-transition: 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: 0.5s;
+}
+.menu:hover {
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+    width: 30em ;
+    height: 30em ;
+    border-radius: 3em 3em 3em 3em;
+    box-shadow: 1.5em 0.5em 1em 1em white inset, 0.5em -5em 2em 1em white inset; 
+}
+.menu:hover p {
+ padding: 2em;
+    font-size:2em;
+}
+.reverse-italic {
+    -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(45deg, 0deg);
+    -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(45deg, 0deg);
+    -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(45deg, 0deg);
+    -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(45deg, 0deg);
+    transform: scale(1) rotate(0deg) translate(0px, 0px) skew(45deg, 0deg);
+}
