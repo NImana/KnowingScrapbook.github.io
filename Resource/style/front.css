@@ -40,7 +40,8 @@ body {
     box-shadow: 1.5em 0.5em 1em 1em white inset, 0.5em -5em 2em 1em white inset; 
 }
 .menu:hover p {
-    font-size:2em;
+	padding: 2em;
+    font-size:1em;
 }
 .reverse-italic {
     -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(45deg, 0deg);
