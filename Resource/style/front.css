@@ -41,7 +41,6 @@ body {
 }
 .menu:hover p {
 	padding: 2em;
-    font-size:1em;
 }
 .reverse-italic {
     -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(45deg, 0deg);
