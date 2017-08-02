@@ -7,40 +7,45 @@ body {
     left: 2em;
     right: 3em;
     bottom: 1em;
- background: url("https://cdn.rawgit.com/NImana/KnowingScrapbook.github.io/154a85dc/Resource/img/MainNote.png");
+	background: url("https://cdn.rawgit.com/NImana/KnowingScrapbook.github.io/154a85dc/Resource/img/MainNote.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 .menu {
-    box-shadow: 1em 0.5em 1em 1em white inset, 0em -3em 2em 1em white inset; 
-    width: 20em ;
-    height: 20em ;
-    border-radius: 3em 3em 0em 0em;
+    box-shadow: 0.5em 0.25em 0.5em 0.5em white inset, 0em -2em 1em 0em white inset; 
+    width: 20% ;
+    height: 20% ;
+    border-radius: 1.5em 1.5em 0em 0em;
     border-style: transparent;
     border-color: grey;
-    -ms-transform: rotate(-3deg); /* IE 9 */
-    -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
-    transform: rotate(-3deg);
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
     -webkit-transition: 0.5s; /* For Safari 3.1 to 6.0 */
     transition: 0.5s;
 }
 .menu p{
- font-family: "Brush Script MT", cursive;
- padding: 3em;
+	font-family: "Brush Script MT", cursive;
+	padding: 1em 1em 1em 2em;
     -webkit-transition: 0.5s; /* For Safari 3.1 to 6.0 */
     transition: 0.5s;
 }
 .menu:hover {
-    -ms-transform: rotate(-7deg); /* IE 9 */
-    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
-    transform: rotate(-7deg);
-    width: 30em ;
-    height: 30em ;
+    -ms-transform: rotate(-1deg); /* IE 9 */
+    -webkit-transform: rotate(-1deg); /* Chrome, Safari, Opera */
+    transform: rotate(-1deg);
+    width: 30% ;
+    height: 30% ;
+    
+    top : 5em;
+    left: 2em;
+    right: 3em;
+    bottom: 2em;
     border-radius: 3em 3em 3em 3em;
-    box-shadow: 1.5em 0.5em 1em 1em white inset, 0.5em -5em 2em 1em white inset; 
+    box-shadow: 0.75em 0.25em 0.5em 0.5em white inset, 0.25em -2.5em 1em 0.5em white inset; 
 }
 .menu:hover p {
-	padding: 5em;
+	padding: 3em;
 }
 .reverse-italic {
     -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(45deg, 0deg);
