@@ -7,7 +7,7 @@ body {
     left: 2em;
     right: 3em;
     bottom: 1em;
-	background: url("https://cdn.rawgit.com/NImana/KnowingScrapbook.github.io/154a85dc/Resource/img/MainNote.png");
+	background: url("https://cdn.jsdelivr.net/gh/NImana/KnowingScrapbook.github.io@154a85dc/Resource/img/MainNote.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
